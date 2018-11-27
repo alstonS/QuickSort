@@ -1,6 +1,6 @@
 public class QuickSort {
 
-    public int partition(int[] arr, int left, int right) {
+    public static int partition(int[] arr, int left, int right) {
         int pivot = right;
         int i = left - 1;
         int placeholder;
